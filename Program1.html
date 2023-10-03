@@ -4,8 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ADDITION OF TWO NUMBERS</title>
+    <link rel="stylesheet" href="stylePages.css">
 </head>
 <body>
+    
     <div class="container">
         <h1>ADDITION OF TWO NUMBERS</h1>
         <label for="Num1">Enter First Number: </label>
@@ -14,8 +16,9 @@
         <input type="number" id="num2"/><br>
         <button onclick="addTwoNums()">Compute</button>
         <p id="result">The sum is: </p>
+        <a href="index.html" class="back-button">Back</a>
     </div>
-    <a href="index.html">Back</a>
+    
 
     <script>
         function addTwoNums(){
@@ -25,5 +28,6 @@
             document.getElementById("result").innerHTML = "The sum is: " +'<u>' + result + '</u>' ;
         }
     </script>
+    <footer>Submitted by: Jhan Rey Llona</footer>
 </body>
 </html>
